@@ -1,0 +1,6 @@
+src/HighIronRanch.DataMigrations.Test.Unit/bin/
+*.user
+src/HighIronRanch.DataMigrations/obj/
+src/HighIronRanch.DataMigrations.Test.Unit/obj/
+*.suo
+src/HighIronRanch.DataMigrations/bin/
