@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("HighIronRanch.DataMigrations")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("DataMigrations defines IMigration and provides a Migrator")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Stephen Balkum")]
 [assembly: AssemblyProduct("HighIronRanch.DataMigrations")]
-[assembly: AssemblyCopyright("Copyright ©  2014")]
+[assembly: AssemblyCopyright("Copyright © 2015 Stephen Balkum")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

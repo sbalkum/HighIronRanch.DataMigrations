@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+	<id>HighIronRanch.DataMigrations</id>
+	<version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+	<licenseUrl>https://github.com/sbalkum/HighIronRanch.DataMigrations/blob/master/LICENSE</licenseUrl>
+	<projectUrl>https://github.com/sbalkum/HighIronRanch.DataMigrations</projectUrl>
+	<requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<description>$description$</description>
+	<summary>$description$</summary>
+	<copyright>$copyright$</copyright>
+  </metadata>
+  <files>
+	<file src="bin\Release\HighIronRanch.DataMigrations.pdb" target="lib\net45\HighIronRanch.DataMigrations.pdb" />
+  </files>
+</package>
