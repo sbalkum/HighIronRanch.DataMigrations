@@ -2,7 +2,10 @@ namespace HighIronRanch.DataMigrations
 {
 	public interface IMigrator
 	{
-		void MigrateUp(int currentVersion);
-		void MigrateDown(int currentVersion, int targetVersion);
+	    int GetCurrentVersion();
+        void MigrateUp();
+        void MigrateUp(int currentVersion);
+	    void MigrateDown(int targetVersion);
+        void MigrateDown(int currentVersion, int targetVersion);
 	}
 }

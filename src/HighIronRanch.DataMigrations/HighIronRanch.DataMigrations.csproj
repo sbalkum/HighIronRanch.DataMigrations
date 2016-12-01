@@ -40,10 +40,15 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseMigration.cs" />
     <Compile Include="IMigration.cs" />
     <Compile Include="IMigrator.cs" />
+    <Compile Include="IVersionRepository.cs" />
     <Compile Include="Migrator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="HighIronRanch.DataMigrations.nuspec" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
